@@ -1,0 +1,173 @@
+# depslib dependency file v1.0
+1677878757 source:/home/jorgesantana/Documentos/WizardRTOZ/main.cpp
+	"./WizardRTOZ/WizardRTOZ.h"
+	"./UnitTest/UnitTest.h"
+	<inttypes.h>
+
+1675864691 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/WizardRTOZ.h
+	"./System/System.h"
+	"./MemoryManager/MemoryManager.h"
+
+1675864591 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/System/System.h
+	"./Exception.h"
+	"./IOStream.h"
+
+1677597050 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/System/Exception.h
+	<functional>
+	<stdlib.h>
+	<stdint.h>
+	"./IOStream.h"
+
+1676762446 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/System/IOStream.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+
+1675984476 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/MemoryManager.h
+	"./Bitwise.h"
+	"./BitArray.h"
+	"./MemoryPool.h"
+	"./StaticList.h"
+
+1677880558 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/Bitwise.h
+	<stddef.h>
+	<stdint.h>
+	"../System/Exception.h"
+
+1676643355 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/BitArray.h
+	<stddef.h>
+	<stdint.h>
+	<string.h>
+	"../System/Exception.h"
+
+1677785305 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/MemoryPool.h
+	"../System/Exception.h"
+	"./BitArray.h"
+
+1676035063 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/StaticList.h
+	<stddef.h>
+	<stdint.h>
+	"../System/Exception.h"
+
+1676643840 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/Tools/UnitTest.h
+	<functional>
+	"../System/IOStream.h"
+
+1676748991 source:/home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/Bitwise.cpp
+	"./Bitwise.h"
+
+1676643780 source:/home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/Tools/UnitTest.cpp
+	"./UnitTest.h"
+
+1677614634 /home/jorgesantana/Documentos/WizardRTOZ/UnitTest/UnitTest.h
+	<stdio.h>
+	<stdarg.h>
+	<functional>
+
+1677614529 source:/home/jorgesantana/Documentos/WizardRTOZ/UnitTest/UnitTest.cpp
+	"./UnitTest.h"
+	<stdarg.h>
+
+1676748501 /home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/Bitwise.cpp
+	"./Bitwise.h"
+
+1676762073 source:/home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/System/Exception.cpp
+	"./Exception.h"
+
+1676762429 source:/home/jorgesantana/Documentos/WizardRTOZ/WizardRTOZ/System/IOStream.cpp
+	"./IOStream.h"
+
+1684935511 source:/home/jorge/Documentos/WizardRTOZ/main.cpp
+	"./WizardRTOZ/WizardRTOZ.h"
+	"./UnitTest/UnitTest.h"
+	<inttypes.h>
+
+1675864691 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/WizardRTOZ.h
+	"./System/System.h"
+	"./MemoryManager/MemoryManager.h"
+
+1684857573 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/System/System.h
+	"./Status.h"
+	"./IOStream.h"
+
+1677597050 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/System/Exception.h
+	<functional>
+	<stdlib.h>
+	<stdint.h>
+	"./IOStream.h"
+
+1676762446 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/System/IOStream.h
+	<stddef.h>
+	<stdarg.h>
+	<stdio.h>
+	<string.h>
+
+1675984476 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/MemoryManager.h
+	"./Bitwise.h"
+	"./BitArray.h"
+	"./MemoryPool.h"
+	"./StaticList.h"
+
+1684935030 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/Bitwise.h
+	<stddef.h>
+	<stdint.h>
+	"../System/Status.h"
+
+1685132811 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/BitArray.h
+	<stddef.h>
+	<stdint.h>
+	<string.h>
+	"../System/Status.h"
+	"../System/Exception.h"
+	"./Bitwise.h"
+
+1677785305 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/MemoryPool.h
+	"../System/Exception.h"
+	"./BitArray.h"
+
+1676035063 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/MemoryManager/StaticList.h
+	<stddef.h>
+	<stdint.h>
+	"../System/Exception.h"
+
+1684883382 /home/jorge/Documentos/WizardRTOZ/UnitTest/UnitTest.h
+	<stdio.h>
+	<stdarg.h>
+	<functional>
+
+1684874675 source:/home/jorge/Documentos/WizardRTOZ/UnitTest/UnitTest.cpp
+	"./UnitTest.h"
+	<stdarg.h>
+	<stdint.h>
+
+1676762073 source:/home/jorge/Documentos/WizardRTOZ/WizardRTOZ/System/Exception.cpp
+	"./Exception.h"
+
+1676762429 source:/home/jorge/Documentos/WizardRTOZ/WizardRTOZ/System/IOStream.cpp
+	"./IOStream.h"
+
+1684531126 source:/home/jorge/Documentos/WizardRTOZ/AnyLib.cpp
+	"./AnyLib.h"
+
+1684530823 /home/jorge/Documentos/WizardRTOZ/AnyLib.h
+	"./UnitTest/UnitTest.h"
+
+1684532203 source:/home/jorge/Documentos/WizardRTOZ/AnyCppLib.cpp
+	"./AnyCppLib.h"
+
+1684533165 /home/jorge/Documentos/WizardRTOZ/AnyCppLib.h
+	"./UnitTest/UnitTest.h"
+
+1684532261 source:/home/jorge/Documentos/WizardRTOZ/AnyCLib.c
+	"./AnyCLib.h"
+
+1684532281 /home/jorge/Documentos/WizardRTOZ/AnyCLib.h
+
+1684542671 source:/home/jorge/Documentos/WizardRTOZ/AnyCLibTest.cpp
+	"./AnyCLib.h"
+	"./UnitTest/UnitTest.h"
+
+1684884717 /home/jorge/Documentos/WizardRTOZ/WizardRTOZ/System/Status.h
+	<stdint.h>
+
